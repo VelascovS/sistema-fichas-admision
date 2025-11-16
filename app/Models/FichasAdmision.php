@@ -15,7 +15,7 @@ class FichasAdmision extends Model
     protected $table = 'fichas_admisions';
 
     /**
-     * Los atributos que se pueden asignar masivamente
+     * Atributos que se pueden asignar masivamente
      */
     protected $fillable = [
         'periodo',
@@ -77,7 +77,7 @@ class FichasAdmision extends Model
     ];
 
     /**
-     * Los atributos que deben ser convertidos a tipos nativos
+     * Atributos que deben ser convertidos a tipos nativos
      */
     protected $casts = [
         'fecha_nacimiento' => 'date',
